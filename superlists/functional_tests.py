@@ -40,18 +40,19 @@ class NewVisitorTest(unittest.TestCase):
 
         # Ela digita "Buy peacock feathers" (Comprar penas de pavão) em uma caixa
         # de texto (o hobby de Edith é fazer iscas para pesca com fly)
-        input.send_keys('Buy peacock feathers')
+        inputbox.send_keys('Buy peacock feathers')
 
 
         # Quando ela tecla enter, a página é atualizada, e agora a página lista
         # "1: Buy peacock feathers" como um item em uma lista de tarefas
-        input.send_keys(Keys.ENTER)
+        inputbox.send_keys(Keys.ENTER)
         time.sleep(1)
 
         table = self.browser.find_element_by_id('id_list_table')
         rows = table.find_elements_by_tag_name('tr')
         self.assertTrue(
-            any(row.text == '1: Buy peacock feathers' for row in rows)
+            any(row.text == '1: Buy peacock feathers' for row in rows),
+            "New to-do item did not appear in table"
         )
 
 
