@@ -11,7 +11,7 @@ from lists.views import home_page
 class HomePageTest(TestCase):
 
     def test_uses_home_template(self):
-        response = self.client.get('/')
-        self.assertTemplateUsed(response, 'home.html')
+        response = self.client.get('/') #Chama a função da view de forma direta
+        self.assertTemplateUsed(response, 'home.html') #Verifica qual template foi usado para renderizar uma resposta
 
 
