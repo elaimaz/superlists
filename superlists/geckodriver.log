@@ -1353,3 +1353,170 @@ console.error: PushService:
 (firefox:21444): GLib-GObject-WARNING **: 18:47:53.024: ../../../../gobject/gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7ff8fe2ae650' of type 'MaiAtkType139'
 1557082083442	Marionette	INFO	Stopped listening on port 38105
 [Parent 21444, Gecko_IOThread] WARNING: pipe error (82): Conexão fechada pela outra ponta: file /build/firefox-6m4fHv/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1557083457622	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.HsOaOjWFG3uF"
+1557083458033	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1557083458034	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1557083458034	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1557083462146	Marionette	INFO	Listening on port 45359
+1557083462266	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:22469): GLib-GObject-WARNING **: 19:11:02.630: ../../../../gobject/gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fc5178787e0' of type 'MaiAtkType139'
+
+(firefox:22469): GLib-GObject-WARNING **: 19:11:03.208: ../../../../gobject/gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fc51d97df10' of type 'MaiAtkType139'
+1557083463785	Marionette	INFO	Stopped listening on port 45359
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 23: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+JavaScript error: resource://gre/modules/IndexedDB.jsm, line 349: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+JavaScript error: resource://gre/modules/IndexedDB.jsm, line 349: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+console.error: PushService: 
+  clearOriginData: Error clearing origin data:
+  UnknownError
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  UnknownError
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+1557083466799	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.VsSKBLcn4cDo"
+1557083467206	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1557083467207	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1557083467207	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1557083470156	Marionette	INFO	Listening on port 34223
+1557083470237	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:22709): GLib-GObject-WARNING **: 19:11:10.446: ../../../../gobject/gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f8739e24510' of type 'MaiAtkType139'
+1557083471008	Marionette	INFO	Stopped listening on port 34223
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 23: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+console.error: PushService: 
+  clearOriginData: Error clearing origin data:
+  UnknownError
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  UnknownError
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+1557083474236	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.9awxcGve1jwi"
+1557083474542	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1557083474543	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1557083474543	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1557083480275	Marionette	INFO	Listening on port 42211
+1557083480349	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:22947): GLib-GObject-WARNING **: 19:11:20.578: ../../../../gobject/gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fad40b50150' of type 'MaiAtkType139'
+1557083491052	Marionette	INFO	Stopped listening on port 42211
+[Parent 22947, Gecko_IOThread] WARNING: pipe error (79): Conexão fechada pela outra ponta: file /build/firefox-6m4fHv/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 22947, Gecko_IOThread] WARNING: pipe error (85): Conexão fechada pela outra ponta: file /build/firefox-6m4fHv/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1557083701437	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.QhgivLHPrWTE"
+1557083701801	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1557083701801	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1557083701801	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1557083706449	Marionette	INFO	Listening on port 45503
+1557083706562	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:23274): GLib-GObject-WARNING **: 19:15:06.863: ../../../../gobject/gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f908867c1f0' of type 'MaiAtkType139'
+1557083716999	Marionette	INFO	Stopped listening on port 45503
+[Parent 23274, Gecko_IOThread] WARNING: pipe error (79): Conexão fechada pela outra ponta: file /build/firefox-6m4fHv/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 23274, Gecko_IOThread] WARNING: pipe error (109): Conexão fechada pela outra ponta: file /build/firefox-6m4fHv/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1557083718621	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.FV4thOMmi3fb"
+1557083718941	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1557083718941	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1557083718941	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1557083721878	Marionette	INFO	Listening on port 36701
+1557083721934	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:23537): GLib-GObject-WARNING **: 19:15:22.218: ../../../../gobject/gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f574d51a9c0' of type 'MaiAtkType139'
+1557083732353	Marionette	INFO	Stopped listening on port 36701
+[Parent 23537, Gecko_IOThread] WARNING: pipe error (70): Conexão fechada pela outra ponta: file /build/firefox-6m4fHv/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1557084495777	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.70cfDtlLpNcK"
+1557084496092	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1557084496093	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1557084496093	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1557084499972	Marionette	INFO	Listening on port 45617
+1557084499990	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:24081): GLib-GObject-WARNING **: 19:28:20.267: ../../../../gobject/gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fe4364afc90' of type 'MaiAtkType139'
+1557084510373	Marionette	INFO	Stopped listening on port 45617
+[Parent 24081, Gecko_IOThread] WARNING: pipe error (93): Conexão fechada pela outra ponta: file /build/firefox-6m4fHv/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 24081, Gecko_IOThread] WARNING: pipe error (79): Conexão fechada pela outra ponta: file /build/firefox-6m4fHv/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1557084511391	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.XyjH9LCI7TQR"
+1557084511800	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1557084511800	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1557084511800	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1557084514365	Marionette	INFO	Listening on port 34219
+1557084514402	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:24337): GLib-GObject-WARNING **: 19:28:34.627: ../../../../gobject/gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f1c0adff790' of type 'MaiAtkType139'
+1557084524733	Marionette	INFO	Stopped listening on port 34219
+[Parent 24337, Gecko_IOThread] WARNING: pipe error (64): Conexão fechada pela outra ponta: file /build/firefox-6m4fHv/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 24337, Gecko_IOThread] WARNING: pipe error (79): Conexão fechada pela outra ponta: file /build/firefox-6m4fHv/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1557084618979	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ST5l8oH0fkVL"
+1557084619284	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1557084619284	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1557084619284	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1557084622703	Marionette	INFO	Listening on port 44709
+1557084622794	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:24639): GLib-GObject-WARNING **: 19:30:23.023: ../../../../gobject/gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fb6049ebe20' of type 'MaiAtkType139'
+
+(firefox:24639): GLib-GObject-WARNING **: 19:30:23.572: ../../../../gobject/gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fb5f81ad560' of type 'MaiAtkType139'
+1557084624137	Marionette	INFO	Stopped listening on port 44709
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 23: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+[Parent 24639, Gecko_IOThread] WARNING: pipe error (98): Conexão fechada pela outra ponta: file /build/firefox-6m4fHv/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+console.error: (new Error("Connection closed before committing the transaction.", "resource://gre/modules/Sqlite.jsm", 625))
+console.error: (new Error("Transaction canceled due to a closed connection.", "resource://gre/modules/Sqlite.jsm", 568))
+console.error: PushService: 
+  clearOriginData: Error clearing origin data:
+  UnknownError
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  UnknownError
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+1557084625148	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.zamvdNAPauck"
+1557084625491	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1557084625492	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1557084625492	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1557084630329	Marionette	INFO	Listening on port 34993
+1557084630364	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:24868): GLib-GObject-WARNING **: 19:30:30.560: ../../../../gobject/gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f385ec0d510' of type 'MaiAtkType139'
+1557084631117	Marionette	INFO	Stopped listening on port 34993
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 23: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+JavaScript error: resource://gre/modules/NewTabUtils.jsm, line 633: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavHistoryService.asyncExecuteLegacyQuery]
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 675: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "JSON store: writing data"
+console.error: PushService: 
+  clearOriginData: Error clearing origin data:
+  UnknownError
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  UnknownError
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+1557084634712	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.VttODiXzF5ui"
+1557084635072	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1557084635072	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1557084635072	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1557084638953	Marionette	INFO	Listening on port 32879
+1557084639023	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:25106): GLib-GObject-WARNING **: 19:30:39.261: ../../../../gobject/gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f149c3907e0' of type 'MaiAtkType139'
+1557084649678	Marionette	INFO	Stopped listening on port 32879
+[Parent 25106, Gecko_IOThread] WARNING: pipe error (79): Conexão fechada pela outra ponta: file /build/firefox-6m4fHv/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 25106, Gecko_IOThread] WARNING: pipe error (85): Conexão fechada pela outra ponta: file /build/firefox-6m4fHv/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
