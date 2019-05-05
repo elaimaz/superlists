@@ -32,7 +32,7 @@ class NewVisitorTest(LiveServerTestCase):
                 time.sleep(0.5)
 
 
-    def test_can_start_a_list_and_retrieve_it_later(self):
+    def test_can_start_a_list_for_one_user(self):
         # Edith ouviu falar de uma nova aplicacao online interessante para
         # lista de tarefas. Ela decide verificar sua homepage
         self.browser.get(self.live_server_url)
@@ -74,14 +74,14 @@ class NewVisitorTest(LiveServerTestCase):
 
 
         # A pagina é atualizada novamente e agora mostra os dois itens em sua lista
-        self.wait_for_row_in_list_table('1: Buy peacock feathers')
         self.wait_for_row_in_list_table('2: Use peacock feathers to make a fly')
+        self.wait_for_row_in_list_table('1: Buy peacock feathers')
 
 
         # Satisfeita, ela volta a dormir
 
 
-    def test_multiple_uers_can_start_lists_at_different_urls(self):
+    def test_multiple_users_can_start_lists_at_different_urls(self):
         # Edith inicia uma nova lista de tarefas
         self.browser.get(self.live_server_url)
         inputbox = self.browser.find_element_by_id('id_new_item')
@@ -105,7 +105,7 @@ class NewVisitorTest(LiveServerTestCase):
 
         # Francis acessa a página inicial. Não há nenhum sinal da lista de Edith
         self.browser.get(self.live_server_url)
-        page_text = self.browser.find_elements_by_tag_name('body').text
+        page_text = self.browser.find_element_by_tag_name('body').text
         self.assertNotIn('Buy peacock feathers', page_text)
         self.assertNotIn('make a fly', page_text)
 
